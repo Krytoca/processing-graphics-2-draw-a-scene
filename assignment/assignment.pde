@@ -111,4 +111,32 @@ void draw() {
   fill(0,0,0);
   textSize(15);
   text("Now Playing", 140, 190);
+  
+  fill(255,255,255);
+  textSize(15);
+  text(">", 450, 100);
+  
+  fill(0,0,0);
+  textSize(15);
+  text(">", 450, 115);
+  
+  fill(0,0,0);
+  textSize(15);
+  text(">", 450, 130);
+  
+  fill(0,0,0);
+  textSize(15);
+  text(">", 450, 145);
+  
+  fill(0,0,0);
+  textSize(15);
+  text(">", 450, 160);
+  
+  fill(0,0,0);
+  textSize(15);
+  text(">", 450, 175);
+  
+  fill(0,0,0);
+  textSize(15);
+  text(">", 450, 190);
 }
