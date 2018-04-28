@@ -39,4 +39,25 @@ void draw() {
   fill(255,255,255);
   ellipse(300, 375, 85,85);
   
+  stroke(255,255,255);//Draw fast forward button
+  strokeWeight(0);
+  fill(255,255,255);
+  triangle(380,370,385,375,380,380);
+  
+  stroke(255,255,255);//Draw fast forward button Pt. 2
+  strokeWeight(0);
+  fill(255,255,255);
+  triangle(387,370,392,375,387,380);
+  
+  stroke(255,255,255);//Draw rewind button
+  strokeWeight(0);
+  fill(255,255,255);
+  triangle(210,370,205,375,210,380);
+  
+  stroke(255,255,255);//Draw rewind button Pt. 2
+  strokeWeight(0);
+  fill(255,255,255);
+  triangle(217,370,212,375,217,380);
+  
+ 
 }
