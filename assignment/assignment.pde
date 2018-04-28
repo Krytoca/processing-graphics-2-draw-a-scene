@@ -77,4 +77,32 @@ void draw() {
   fill(255,255,255);//Draw menu button
   textSize(12);
   text("Menu", 285, 300);
+  
+  fill(0,0,0);
+  textSize(15);
+  text("Music", 140, 100);
+  
+  fill(0,0,0);
+  textSize(15);
+  text("Photos", 140, 115);
+  
+  fill(0,0,0);
+  textSize(15);
+  text("Videos", 140, 130);
+  
+  fill(0,0,0);
+  textSize(15);
+  text("Extras", 140, 145);
+  
+  fill(0,0,0);
+  textSize(15);
+  text("Settings", 140, 160);
+  
+  fill(0,0,0);
+  textSize(15);
+  text("Shuffle Songs", 140, 175);
+  
+  fill(0,0,0);
+  textSize(15);
+  text("Now Playing", 140, 190);
 }
