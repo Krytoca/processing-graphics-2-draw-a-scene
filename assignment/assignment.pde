@@ -24,6 +24,7 @@ void draw() {
   *Coordinates are based on top left corner by defualt
   *Below this comment is the next rectangle for the display
   */
+ 
   fill(255,255,255);
   stroke(0,0,0);//Draw the Display
   strokeWeight(7);
@@ -78,7 +79,12 @@ void draw() {
   textSize(12);
   text("Menu", 285, 300);
   
-  fill(0,0,0);
+  fill(0,100,255);
+  stroke(0,100,255);
+  strokeWeight(0);
+  rect(135,80,330,23);
+  
+  fill(255,255,255);//Draw various display options
   textSize(15);
   text("Music", 140, 100);
   
