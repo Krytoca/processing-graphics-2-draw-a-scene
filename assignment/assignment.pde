@@ -169,4 +169,14 @@ void draw() {
   stroke(0,0,0);
   strokeWeight(1);
   rect(460,84,2,5);
+  
+  arc(300, 375, 89, 89, HALF_PI, PI);//Fill in dial button
+  
+  arc(300, 375, 89, 89,PI, PI+QUARTER_PI);
+  
+  arc(300, 375, 89, 89, PI+QUARTER_PI, TWO_PI);
+  
+  arc(300, 375, 89, 89, 0, HALF_PI);
+  
+  
 }
