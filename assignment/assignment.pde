@@ -15,6 +15,7 @@ void draw() {
   //Program will go here
   background(0,0,0); //The background color, placed here so that the loop looks better
   //Draw initial outer rectangle
+  fill(255,255,255);
   stroke(137,137,137);//Outline of the shape
   strokeWeight(3);//Size of the outline
   rect(100, 50, 400, 475,18,18,18,18);//position and shape of rectangle
@@ -23,7 +24,19 @@ void draw() {
   *Coordinates are based on top left corner by defualt
   *Below this comment is the next rectangle for the display
   */
+  fill(255,255,255);
   stroke(0,0,0);//Draw the Display
   strokeWeight(7);
   rect(125, 75, 350, 175);
+  
+  stroke(137,137,137);//Draw dial outline
+  strokeWeight(1);
+  fill(137,137,137);
+  ellipse(300,375,225,225);
+  
+  stroke(255,255,255);//Draw dial button
+  strokeWeight(0);
+  fill(255,255,255);
+  ellipse(300, 375, 85,85);
+  
 }
