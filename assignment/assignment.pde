@@ -27,7 +27,7 @@ void draw() {
   fill(255,255,255);
   stroke(0,0,0);//Draw the Display
   strokeWeight(7);
-  rect(125, 75, 350, 175);
+  rect(130, 75, 340, 175);
   
   stroke(137,137,137);//Draw dial outline
   strokeWeight(1);
@@ -74,5 +74,7 @@ void draw() {
   fill(255,255,255);
   rect(307,450,4,12);
   
-  
+  fill(255,255,255);//Draw menu button
+  textSize(12);
+  text("Menu", 285, 300);
 }
