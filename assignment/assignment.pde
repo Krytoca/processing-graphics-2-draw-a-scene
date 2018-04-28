@@ -59,5 +59,20 @@ void draw() {
   fill(255,255,255);
   triangle(217,370,212,375,217,380);
   
- 
+  stroke(255,255,255);//Draw play button
+  strokeWeight(0);
+  fill(255,255,255);
+  triangle(290,450,300,455,290,460);
+  
+  stroke(255,255,255);//Draw pause button
+  strokeWeight(0);
+  fill(255,255,255);
+  rect(302,450,4,12);
+  
+  stroke(255,255,255);//Draw pause button
+  strokeWeight(0);
+  fill(255,255,255);
+  rect(307,450,4,12);
+  
+  
 }
