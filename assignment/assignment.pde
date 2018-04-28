@@ -79,64 +79,64 @@ void draw() {
   textSize(12);
   text("Menu", 285, 300);
   
-  fill(0,100,255);
+  fill(0,100,255);//Draw menu selection
   stroke(0,100,255);
   strokeWeight(0);
-  rect(135,80,330,23);
+  rect(135,98,330,15);
   
   fill(255,255,255);//Draw various display options
   textSize(15);
-  text("Music", 140, 100);
+  text("Music", 140, 110);
   
   fill(0,0,0);
   textSize(15);
-  text("Photos", 140, 115);
+  text("Photos", 140, 125);
   
   fill(0,0,0);
   textSize(15);
-  text("Videos", 140, 130);
+  text("Videos", 140, 140);
   
   fill(0,0,0);
   textSize(15);
-  text("Extras", 140, 145);
+  text("Extras", 140, 155);
   
   fill(0,0,0);
   textSize(15);
-  text("Settings", 140, 160);
+  text("Settings", 140, 170);
   
   fill(0,0,0);
   textSize(15);
-  text("Shuffle Songs", 140, 175);
+  text("Shuffle Songs", 140, 185);
   
   fill(0,0,0);
   textSize(15);
-  text("Now Playing", 140, 190);
+  text("Now Playing", 140, 200);
   
   fill(255,255,255);
   textSize(15);
-  text(">", 450, 100);
+  text(">", 450, 110);
   
   fill(0,0,0);
   textSize(15);
-  text(">", 450, 115);
+  text(">", 450, 125);
   
   fill(0,0,0);
   textSize(15);
-  text(">", 450, 130);
+  text(">", 450, 140);
   
   fill(0,0,0);
   textSize(15);
-  text(">", 450, 145);
+  text(">", 450, 155);
   
   fill(0,0,0);
   textSize(15);
-  text(">", 450, 160);
+  text(">", 450, 170);
   
   fill(0,0,0);
   textSize(15);
-  text(">", 450, 175);
+  text(">", 450, 185);
   
   fill(0,0,0);
   textSize(15);
-  text(">", 450, 190);
+  text(">", 450, 200);
 }
