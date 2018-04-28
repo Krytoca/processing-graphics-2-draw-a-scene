@@ -73,7 +73,7 @@ void draw() {
   stroke(255,255,255);//Draw pause button
   strokeWeight(0);
   fill(255,255,255);
-  rect(307,450,4,12);
+  rect(308,450,4,12);
   
   fill(255,255,255);//Draw menu button
   textSize(12);
@@ -82,7 +82,7 @@ void draw() {
   fill(0,100,255);//Draw menu selection
   stroke(0,100,255);
   strokeWeight(0);
-  rect(135,98,330,15);
+  rect(134,96,333,16);
   
   fill(255,255,255);//Draw various display options
   textSize(15);
@@ -139,4 +139,33 @@ void draw() {
   fill(0,0,0);
   textSize(15);
   text(">", 450, 200);
+  
+  fill(193,193,193);//Draw status bar
+  stroke(0,0,0);
+  strokeWeight(1);
+  rect(134,79,333,16);
+  
+  fill(0,100,255);//Draw pause/play status
+  stroke(0,0,0);
+  strokeWeight(1);
+  rect(137,82,4,9);
+  
+  fill(0,100,255);
+  stroke(0,0,0);
+  strokeWeight(1);
+  rect(143,82,4,9);
+  
+  fill(0,0,0);//Draw "ipod" text at top
+  textSize(12);
+  text("iPod", 290, 91);
+  
+  fill(43, 234, 0);//Draw battery life
+  stroke(0,0,0);
+  strokeWeight(1);
+  rect(445,82,15,9);
+  
+  fill(193,193,193);
+  stroke(0,0,0);
+  strokeWeight(1);
+  rect(460,84,2,5);
 }
