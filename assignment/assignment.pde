@@ -18,8 +18,12 @@ void draw() {
   stroke(137,137,137);//Outline of the shape
   strokeWeight(3);//Size of the outline
   rect(100, 50, 400, 475,18,18,18,18);//position and shape of rectangle
-  /**Reactangle is shaped as follows
+  /**Reactangle above is shaped as follows
   *(x coordinate, y coordinate, width, height, radius of top left, top right,bot right,bot left)
   *Coordinates are based on top left corner by defualt
+  *Below this comment is the next rectangle for the display
   */
+  stroke(0,0,0);//Draw the Display
+  strokeWeight(7);
+  rect(125, 75, 350, 175);
 }
