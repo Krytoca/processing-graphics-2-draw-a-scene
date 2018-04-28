@@ -23,6 +23,7 @@ void draw() {
   *(x coordinate, y coordinate, width, height, radius of top left, top right,bot right,bot left)
   *Coordinates are based on top left corner by defualt
   *Below this comment is the next rectangle for the display
+  *All comments adjacent to the code is a step by step guide on what I did
   */
  
   fill(255,255,255);
